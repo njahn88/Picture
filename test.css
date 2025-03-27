@@ -1,0 +1,43 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.background-color{
+    background-color: #F2EFE7;
+}
+
+.hilight-color{
+    background-color: #006A71;
+}
+
+.test-border{
+    border: dotted;
+    border-color: blue;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+}
+
+.top-bar{
+    height: 7vh;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.top-bar-container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-bar-section-main{
+    flex: .5;
+}
+
+.top-bar-section-min{
+    flex: .3;
+}
