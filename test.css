@@ -70,8 +70,17 @@ html, body{
     width: 50%;
     height: 50%;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home-button{
     width: 75%;
+}
+
+.button-text{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #F2EFE7;
 }
