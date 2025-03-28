@@ -1,4 +1,5 @@
 //Client side
+/*
 document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("submitButton").addEventListener("click", Submit);
 });
@@ -40,3 +41,4 @@ exports.myFunction = functions.https.onRequest((req, res) => {
     }
     res.json({message : "Incorrect"});
 })
+    */
